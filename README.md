@@ -71,9 +71,9 @@ mkdir ~/.nvm
 
 3. Update your ZSH (Z-shell) resource:
 
+```bash
 # Add the following line towards the end of your zshrc:
 
-```bash
 # Node Version Manager
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
@@ -84,4 +84,30 @@ export NVM_DIR="$HOME/.nvm"
 
 ```bash
 nvm install 22.20.0
+```
+
+## Git Minimal Setup
+
+We will use Homebrew:
+
+```bash
+brew install git
+```
+
+```bash
+# Create & Edit the .gitconfig file:
+nano .gitconfig
+
+# Add your user info stanza
+[user]
+    email = youremail@somecompany.com
+    name = Your Name
+```
+
+## Claude Code Setup
+
+To install Claude Code, run the following command:
+
+```bash
+npm install -g @anthropic-ai/claude-code
 ```
