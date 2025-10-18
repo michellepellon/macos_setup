@@ -84,4 +84,4 @@ export NVM_DIR="$HOME/.nvm"
 
 ```bash
 nvm install 22.20.0
-``
+```
