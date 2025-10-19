@@ -70,7 +70,7 @@ You can easily install your Browsers using Homebrew.
 1. Run the following command to update homebrew
 
 ```bash
-brew up
+brew update
 ```
 
 Run the following command to install Chrome
