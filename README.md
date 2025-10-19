@@ -123,6 +123,22 @@ Keybinding + option names are from Ghostty’s docs. If you use a global keybind
 macOS will prompt for Accessibility permission so the hotkey works when Ghostty 
 is not focused.
 
+## Install Docker
+
+Install Docker Desktop:
+
+```bash
+brew install --cask docker-desktop
+```
+
+Verify:
+
+```bash
+docker --version
+docker compose version   # Compose v2 comes with Docker Desktop
+docker run hello-world   # pulls and runs the official test image
+```
+
 ## Install Pareto Security (and make every check green)
 
 These steps install the macOS app via Homebrew Cask and walk you through resolving 
