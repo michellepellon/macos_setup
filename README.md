@@ -3,6 +3,25 @@
 This guide is based on my own experience, but also draws on other guides. It 
 is primarily oriented towards those doing code-related stuff.
 
+## First Boot
+
+When macOS first starts, you'll be greeted by Setup Assistant.
+
+When creating the first account, use a [strong password](https://www.eff.org/dice) 
+without a hint.
+
+If you enter your real name at the account setup process, be aware that your 
+computer's name and local hostname will comprise that name (e.g., John Appleseed's 
+MacBook) and thus will appear on local networks and in various preference files.
+
+Both should be verified and updated as needed in System Settings > About or with the 
+following commands after installation:
+
+```bash
+sudo scutil --set ComputerName MacBook
+sudo scutil --set LocalHostName MacBook
+```
+
 ## Verify or Install Apple's Command-line Tools
 
 First, make sure that you have Apple's command-line tools installed by executing:
