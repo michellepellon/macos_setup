@@ -78,6 +78,26 @@ Finally, just to make sure everything's up-to-date:
 brew update
 ```
 
+## Install Pareto Security (and make every check green)
+
+These steps install the macOS app via Homebrew Cask and walk you through resolving 
+each built-in security check so the app shows all green.
+
+```bash
+brew update
+brew install --cask pareto-security
+```
+
+Launch it from Applications (or Spotlight). Pareto lives in your menu bar and turns 
+green when all checks pass; orange means something needs attention.
+
+### Run the checks
+
+- Click the Pareto Security menu-bar icon.
+- Choose Run Checks (or it will run automatically in the background).
+- For any item that’s orange, click it—Pareto links to a brief “how to fix” guide for that check.
+- You can also disable business-only checks you don’t care about: Pareto Security → Preferences → Checks.
+
 ## Browser Installation
 
 You can easily install your Browsers using Homebrew.
