@@ -78,6 +78,51 @@ Finally, just to make sure everything's up-to-date:
 brew update
 ```
 
+## Install Ghostty
+
+Why Ghostty over other macOS terminals (in two bites):
+
+1. **Metal-powered rendering + native UI**. Ghostty uses the GPU (Metal on macOS)
+   and a platform-native interface, which makes scrolling and redraws feel
+   snappy and keeps it visually consistent with macOS.
+
+2. **Modern ergonomics**. Built-in features like the Quick Terminal hotkey let you
+   summon a terminal instantly without context-switching, a trick many terminals
+   bolt on via third-party tools.
+
+Install (stable):
+
+```bash
+brew install --cask ghostty
+```
+
+That is the official cask; it installs the signed, notarized macOS app.
+
+Launch it: Spotlight → “Ghostty”, or from Applications.
+
+### Quick setup: add a global “quick terminal” hotkey
+
+Ghostty has a DOOM/quake-style Quick Terminal you can drop down with a single keystroke. 
+Ghostty
+
+Create/edit your config file at:
+
+```bash
+~/Library/Application Support/com.mitchellh.ghostty/config (macOS native path), or
+```
+
+Add:
+
+```bash
+# Toggle the drop-down terminal from anywhere on macOS
+keybind = global:cmd+backquote=toggle_quick_terminal
+quick-terminal-position = top
+```
+
+Keybinding + option names are from Ghostty’s docs. If you use a global keybind, 
+macOS will prompt for Accessibility permission so the hotkey works when Ghostty 
+is not focused.
+
 ## Install Pareto Security (and make every check green)
 
 These steps install the macOS app via Homebrew Cask and walk you through resolving 
