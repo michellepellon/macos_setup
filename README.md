@@ -39,7 +39,15 @@ To install **Homebrew**, run this command:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-To make sure it's all working correctly, execute:
+Then update your `~/.zprofile`
+
+```bash
+echo >> /Users/mpellon/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/mpellon/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+To make sure it is all working correctly, restart your shell then execute:
 
 ```bash
 brew doctor
