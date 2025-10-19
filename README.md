@@ -51,6 +51,26 @@ Finally, just to make sure everything's up-to-date:
 brew update
 ```
 
+## Browser Installation
+
+You can easily install your Browsers using Homebrew.
+
+### Install Chrome
+
+🍺 Reference https://formulae.brew.sh/cask/google-chrome for the source of truth
+
+1. Run the following command to update homebrew
+
+```bash
+brew up
+```
+
+Run the following command to install Chrome
+
+```bash
+brew install --cask google-chrome
+```
+
 ## NodeJS Installation
 
 1. First, ensure there is not already a version of [Node](https://node.js.org/) 
