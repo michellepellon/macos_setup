@@ -211,7 +211,30 @@ export NVM_DIR="$HOME/.nvm"
 4. Now, let's pick the version of NodeJS to install.
 
 ```bash
-nvm install 22.20.0
+nvm install 24.11.1
+```
+
+## GitHub CLI
+
+The GitHub CLI (`gh`) lets you work with GitHub from the command line—create PRs,
+manage issues, clone repos, and more.
+
+```bash
+brew install gh
+```
+
+After installation, authenticate with your GitHub account:
+
+```bash
+gh auth login
+```
+
+Follow the prompts to authenticate via browser or with a token.
+
+Verify it works:
+
+```bash
+gh auth status
 ```
 
 ## Git Minimal Setup
@@ -231,6 +254,18 @@ nano .gitconfig
     email = youremail@somecompany.com
     name = Your Name
 ```
+
+## Beekeeper Studio
+
+[Beekeeper Studio](https://www.beekeeperstudio.io/) is an open-source SQL client
+and database manager. It supports MySQL, PostgreSQL, SQLite, SQL Server, MongoDB,
+and many others.
+
+```bash
+brew install --cask beekeeper-studio
+```
+
+Launch it from Applications or Spotlight.
 
 ## Claude Code Setup
 
