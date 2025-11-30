@@ -237,6 +237,22 @@ Verify it works:
 gh auth status
 ```
 
+## yadm (Yet Another Dotfiles Manager)
+
+[yadm](https://yadm.io/) is a dotfiles manager built on top of Git. It lets you
+track your configuration files (`.zshrc`, `.gitconfig`, etc.) in a Git repo
+without turning your home directory into a repository.
+
+```bash
+brew install yadm
+```
+
+To clone an existing dotfiles repo:
+
+```bash
+yadm clone <your-dotfiles-repo-url>
+```
+
 ## Git Minimal Setup
 
 We will use Homebrew:
