@@ -158,5 +158,5 @@ Install the marketplace and workbench plugin for additional skills and commands:
 
 ```bash
 claude plugin marketplace add https://github.com/michellepellon/claude-marketplace
-claude plugin add claude-workbench@claude-marketplace
+claude plugin install workbench@claude-marketplace
 ```
