@@ -151,3 +151,12 @@ quick-terminal-position = top
 ```bash
 npm install -g @anthropic-ai/claude-code
 ```
+
+### Claude Workbench Plugin
+
+Install the marketplace and workbench plugin for additional skills and commands:
+
+```bash
+claude plugin marketplace add https://github.com/michellepellon/claude-marketplace
+claude plugin add claude-workbench@claude-marketplace
+```
