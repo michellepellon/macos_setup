@@ -86,14 +86,14 @@ This installs:
 - `htop` - Interactive process viewer
 
 **Applications:**
-- Ghostty - GPU-accelerated terminal
-- Docker - Container platform
-- Pareto Security - Security checklist
-- Google Chrome - Browser
-- Beekeeper Studio - SQL client
-- Zoom - Video conferencing
-- Granola - AI meeting notes
-- Bitwarden - Password manager
+- [Ghostty](https://ghostty.org/) - GPU-accelerated terminal
+- [Docker](https://www.docker.com/) - Container platform
+- [Pareto Security](https://paretosecurity.com/) - Security checklist
+- [Google Chrome](https://www.google.com/chrome/) - Browser
+- [Beekeeper Studio](https://www.beekeeperstudio.io/) - SQL client
+- [Zoom](https://zoom.us/) - Video conferencing
+- [Granola](https://www.granola.ai/) - AI meeting notes
+- [Bitwarden](https://bitwarden.com/) - Password manager
 
 ## Post-Install Configuration
 
