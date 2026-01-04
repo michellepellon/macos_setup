@@ -20,3 +20,7 @@ cask "beekeeper-studio"
 cask "zoom"
 cask "granola"
 cask "bitwarden"
+
+# Misc
+brew "nut"
+brew "mole"
